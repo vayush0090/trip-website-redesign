@@ -12,7 +12,7 @@ const PopularSection = () => {
         <p className="font-semibold text-xl">All Destination</p>
       </div>
 
-      <div className="mt-28 grid w-[70%] gap-y-6 sm:grid sm:grid-cols-1 sm:w-[50vw] sm:gap-y-5   md:grid md:grid-cols-2 md:w-[72vw]  md:gap-6  lg:grid lg:grid-cols-2 lg:gap-6 lg:w-[72vw] m-auto  ">
+      <div className="mt-11 grid w-[70%] gap-y-6 sm:grid sm:grid-cols-1 sm:w-[50vw] sm:gap-y-5   md:grid md:grid-cols-2 md:w-[72vw]  md:gap-6  lg:grid lg:grid-cols-2 lg:gap-6 lg:w-[72vw] m-auto  ">
         {/* <PopularSectionCard />
             <PopularSectionCard/>
             <PopularSectionCard/>
