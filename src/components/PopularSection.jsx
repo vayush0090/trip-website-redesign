@@ -4,7 +4,7 @@ import PopularSectionCard from "./PopularSectionCard";
 const PopularSection = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center text-center mt-28 gap-y-4 mx-auto">
+      <div className="flex flex-col justify-center items-center text-center mt-28 gap-y-4 mx-5">
         <h1 id="destination" className="text-4xl font-bold">Popular Destinations</h1>
         <p className="text-gray-700 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis!
@@ -19,7 +19,7 @@ const PopularSection = () => {
             <PopularSectionCard/>
             <PopularSectionCard/>
             <PopularSectionCard/> */}
-        <div className="bg-red-500 rounded-3xl w-[70vw] h-[50vh] sm:w-[50vw] sm:h-[50vh] md:w-[35vw] md:h-[50vh] overflow-hidden shadow-2xl">
+        <div className="bg-red-500 rounded-3xl w-[70vw] h-[40vh] sm:w-[50vw] sm:h-[50vh] md:w-[35vw] md:h-[50vh] overflow-hidden shadow-2xl">
           <img
             src="https://images.pexels.com/photos/12446112/pexels-photo-12446112.jpeg?auto=compress&cs=tinysrgb&w=600"
             className="w-full hover:scale-150 object-cover h-[100%]   transition-all ease-in duration-500 cursor-grab"
