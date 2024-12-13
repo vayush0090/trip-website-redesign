@@ -16,8 +16,8 @@ const Home = () => {
         <Contact />
         <Footer />
 
-        <a href="#top"><div className='rounded-full bg-white shadow-2xl border-2 bottom-2 right-2 fixed '>
-          <IoIosArrowUp size={50} />
+        <a href="#top"><div className='animate-bounce rounded-full bg-white shadow-2xl border-2 bottom-2 right-2 fixed '>
+          <IoIosArrowUp size={40} />
 
         </div></a>
         
