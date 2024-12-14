@@ -1,28 +1,40 @@
-import React from 'react'
-import MainPage from '../components/MainPage'
-import BackgroundVideo from '../components/BackgroundVideo'
-import PopularSection from '../components/PopularSection'
-import OurTeam from '../components/OurTeam'
-import Contact from '../components/Contact'
-import Footer from '../components/Footer'
+import React from "react";
+import MainPage from "../components/MainPage";
+import BackgroundVideo from "../components/BackgroundVideo";
+import PopularSection from "../components/PopularSection";
+import OurTeam from "../components/OurTeam";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import { IoIosArrowUp } from "react-icons/io";
+import { IoIosCall } from "react-icons/io";
+import { IoMdMail } from "react-icons/io";
 
 const Home = () => {
   return (
     <>
-        <MainPage />
-        <PopularSection />
-        <OurTeam/>
-        <Contact />
-        <Footer />
+      <MainPage />
+      <PopularSection />
+      <OurTeam />
+      <Contact />
+      <Footer />
 
-        <a href="#top"><div className='animate-bounce rounded-full bg-white shadow-2xl border-2 bottom-2 right-2 fixed '>
+      <a href="tel:+919310221921">
+        <div className="animate-bounce rounded-full p-2 bg-white shadow-2xl border-2 bottom-28 right-2 fixed ">
+          <IoIosCall size={25} />
+        </div>
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=m.bluth@example.com&subject=Hello%20there&body=I%20hope%20you%20are%20doing%20well!" target="_blank">
+        <div className="animate-bounce rounded-full p-2 bg-white shadow-2xl border-2 bottom-[60px] right-2 fixed ">
+          <IoMdMail size={24} />
+        </div>
+      </a>
+      <a href="#top">
+        <div className="animate-bounce rounded-full bg-white shadow-2xl border-2 bottom-2 right-2 fixed ">
           <IoIosArrowUp size={40} />
-
-        </div></a>
-        
+        </div>
+      </a>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
