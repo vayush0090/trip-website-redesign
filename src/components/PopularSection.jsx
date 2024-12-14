@@ -1,6 +1,7 @@
 import React from "react";
 import PopularSectionCard from "./PopularSectionCard";
 
+
 const PopularSection = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const PopularSection = () => {
             <PopularSectionCard/>
             <PopularSectionCard/>
             <PopularSectionCard/> */}
-        <div className="bg-red-500 rounded-3xl w-[70vw] h-[40vh] sm:w-[50vw] sm:h-[50vh] md:w-[35vw] md:h-[50vh] overflow-hidden shadow-2xl">
+        <div className="bg-red-500 rounded-3xl w-[70vw] h-[40vh] sm:w-[50vw] sm:h-[50vh] md:w-[35vw] md:h-[50vh] overflow-hidden shadow-2xl" >
           <img
             src="https://images.unsplash.com/photo-1732639840730-a3cdf066a9e6?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="w-full hover:scale-150 object-cover h-[100%]   transition-all ease-in duration-500 cursor-grab"
@@ -67,3 +68,28 @@ const PopularSection = () => {
 };
 
 export default PopularSection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

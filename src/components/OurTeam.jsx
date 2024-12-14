@@ -5,14 +5,14 @@ import { FaLinkedin } from "react-icons/fa";
 const OurTeam = () => {
   return (
     <>
-        <div id='team' className='text-4xl mt-14 text-center font-bold'>
+        <div id='team' className='text-4xl mt-14 text-center font-bold '>
             Our Team
         </div>
 
-        <div className='mt-11'>
+        <div className='mt-11 bg-white shadow-2xl rounded-3xl  xl py-9 w-[90vw] mx-auto '>
             <div className='flex flex-col items-center text-center mx-4 gap-y-4'>
                 <div className='font-semibold'> Meet our leadership</div>
-                <div className='text-gray-700'> We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</div>
+                <div className='text-gray-700  w-[50vw]'> We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</div>
             </div>
 
             {/* our teams profile */}
