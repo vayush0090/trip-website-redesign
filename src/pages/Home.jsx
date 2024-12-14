@@ -18,12 +18,12 @@ const Home = () => {
       <Contact />
       <Footer />
 
-      <a href="tel:+919310221921">
+      <a href="tel:+919874561230">
         <div className="animate-bounce rounded-full p-2 bg-white shadow-2xl border-2 bottom-28 right-2 fixed ">
           <IoIosCall size={25} />
         </div>
       </a>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=m.bluth@example.com&subject=Hello%20there&body=I%20hope%20you%20are%20doing%20well!" target="_blank">
+      <a href="mailto:m.bluth@example.com?subject=Hello%20there&body=I%20hope%20you%20are%20doing%20well!" target="_blank">
         <div className="animate-bounce rounded-full p-2 bg-white shadow-2xl border-2 bottom-[60px] right-2 fixed ">
           <IoMdMail size={24} />
         </div>
