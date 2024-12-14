@@ -172,7 +172,7 @@ const NavBar = () => {
                         <ul className='hidden md:flex space-x-6 font-semibold'>
                             <a href="#"><li>Home</li></a>
                             <a href="#destination"><li>Destination</li></a>
-                            <a href="#about"><li>About Us</li></a>
+                            <a href="#about"><li>About</li></a>
                             <a href="#team"><li>Our Team</li></a>
                             <a href="#contact"><li>Contact Us</li></a>
                         </ul>
@@ -194,7 +194,7 @@ const NavBar = () => {
                         >
                             <motion.a href="#" variants={item}><li>Home</li></motion.a>
                             <motion.a href="#destination" variants={item}><li>Destination</li></motion.a>
-                            <motion.a href="#about" variants={item}><li>About Us</li></motion.a>
+                            <motion.a href="#about" variants={item}><li>About</li></motion.a>
                             <motion.a href="#team" variants={item}><li>Our Team</li></motion.a>
                             <motion.a href="#contact" variants={item}><li>Contact Us</li></motion.a>
                         </motion.ul>
