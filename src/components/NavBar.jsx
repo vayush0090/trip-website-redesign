@@ -86,7 +86,7 @@ const NavBar = () => {
 
     return (
         <>
-            <div className='bg-white py-2 sm:py-5 shadow-lg px-16 sticky top-0 z-20'>
+            <div className='bg-white py-2 sm:py-5 shadow-lg px-5 sm:px-16 sticky top-0 z-20'>
                 <nav className='flex justify-between items-center'>
                     <div className='left-side'>
                         <a href="#"><h1 className='text-4xl font-bold'>Travel</h1></a>
