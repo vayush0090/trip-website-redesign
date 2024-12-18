@@ -12,7 +12,9 @@ import { IoMdMail } from "react-icons/io";
 const Home = () => {
   return (
     <>
+    <div className="bg-white w-[85vw] sm:py-10 py-5  mx-auto mt-10 rounded-3xl shadow-2xl">
       <MainPage />
+      </div>
       <PopularSection />
       <OurTeam />
       <Contact />
@@ -38,3 +40,9 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+
+
+

@@ -345,7 +345,10 @@ const Contact = () => {
         Contact Us
       </div>
 
-      <div className="md:flex md:items-center md:flex-col md:justify-between flex flex-col justify-center items-center gap-y-9 lg:flex-row lg:justify-between lg:items-center mt-20 lg:ml-6">
+      <div className="md:flex md:items-center md:flex-col md:justify-between flex flex-col justify-center items-center gap-y-9 lg:flex-row lg:justify-between lg:items-center mt-10 lg:ml-6 bg-white mx-auto w-[95vw] rounded-3xl shadow-2xl  px-4 py-8">
+
+        {/* address section  */}
+
         <div className="flex flex-col gap-y-9">
           <div className="pl-6 flex flex-col gap-y-9 lg:h-[90vh] lg:w-[40vw] lg:px-32 lg:pt-40">
             <div className="flex flex-col">
@@ -499,6 +502,9 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+
+            {/* map feature */}
 
       <div className="py-6 md:py-10 w-[85vw] mx-auto bg-slate-200 rounded-2xl shadow-2xl mt-10" >
          <div className=" w-[80vw] rounded-3xl mx-auto ">
